@@ -14,7 +14,7 @@ Object Detection, Semantic and Instance Segmentation -
 
 
 <p align="center">
-<img width="50%"  src="./assets/codeDevsLogo.png" />
+<img width="50%"  src="./assets/objectlogo.jpg" />
 </p>
 <br>
 
