@@ -1,4 +1,4 @@
-<h1 align="center"> <b>Objectify - Team CodeDevs (Manthan 2021)</b></h1>
+<h1 align="center"> <b>Objectify - Advanced Object Detection on Images</b></h1>
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/github/license/Arka2001/shopify-app?style=for-the-badge"> 
@@ -10,9 +10,7 @@
 
 </p>
 
-Object Detection, Semantic and Instance Segmentation - 
-By `Team CodeDevs` for Competition `Manthan21`
-Code will be released prior Idea Submission Selection.
+Object Detection, Semantic and Instance Segmentation
 
 <p align="center">
 <img width="50%"  src="./assets/codeDevsLogo.png" />
@@ -138,4 +136,4 @@ For the task of `semantic segmentation` (or any `dense pixel prediction`), we pr
 <p align="center"><img  src="https://user-images.githubusercontent.com/78292851/139591258-600d7341-66e0-47d9-85c7-409eaf4d01c3.gif" /></p>
 
 <p align="center"> <b>Instance Segmentation</b> </p>
-<b> ~By CodeDevs</b>
+<b> ~By Shubham</b>
