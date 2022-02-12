@@ -1,0 +1,27 @@
+{%extends 'base.html' %}
+{%load static%}
+{%block body%}
+<br><br><br><br><br>
+<div class="container">
+<form method="POST" enctype="multipart/form-data">
+    
+	{% csrf_token %}
+	{{ form.as_p }}
+	<label for="cars">Choose a MODEL:</label>
+                    <select name="cars" id="cars">
+                        <option value="PointRend">PointRend</option>
+                        <option value="MobileNetV3Large">MobileNetV3Large</option>
+                        <option value="MobileNetV3Small">MobileNetV3Small</option>
+                        <label for="cars1">Choose Detection Type:</label>
+                    </select>
+                    <select name="cars1" id="cars1">
+                        <option value="Object Detection">Object Detection</option>
+                        <option value="Instance Segmentation (Map)">Instance Segmentation (Map)</option>
+                        <option value="Instance Segmentation (Blend)">Instance Segmentation (Blend)</option>
+                    </select>
+					<br><br><br>
+	<input type="submit" value="Submit"></form>
+    <br><br><br><br><br><br><br><br><br><br>
+
+</div>
+{% endblock %}

@@ -1,0 +1,83 @@
+{%extends 'base.html' %}
+{%load static%}
+{%block body %}
+
+
+<div class="container">
+    <div id="wrapper" class="divided">
+
+        <!-- One -->
+        <section
+            class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+
+            <div class="content">
+                <form action="" method="POST">
+                    {% csrf_token %}
+                    <label for="choice">
+                        <div id="myData">
+                        </div>
+                    </label>
+
+                    <br>
+
+                    <br>
+                    
+                    <br>
+                    <br>
+                    <!-- <input type="submit" value="Submit" /> -->
+                </form>
+
+            </div>
+
+            <div class="image" style="height:740px;">
+                <center>
+                    <img src="{% static 'images/out.png' %}" alt="" />
+                </center>
+            </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br>
+
+    <script type="text/javascript">
+
+
+        fetch('/static/demo.json')
+
+
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+
+                console.log(data);
+                for (var i = 0; i < data.length; i++) {
+
+                    for (var j = 0; j < data[i].label.length; j++) {
+                        var checkbox = document.createElement('input');
+                        checkbox.type = 'checkbox';
+                        checkbox.id = data[i].label[j];
+                        checkbox.name = data[i].label[j];
+                        checkbox.value = data[i].label[j];
+
+                        var label = document.createElement('label')
+                        label.htmlFor = data[i].label[j];
+                        label.appendChild(document.createTextNode(data[i].label[j]));
+
+                        var br = document.createElement('br');
+
+                        var container = document.getElementById('myData');
+                        container.appendChild(checkbox);
+                        container.appendChild(label);
+                        container.appendChild(br);
+
+                    }
+                }
+
+            })
+            .catch(function (err) {
+                console.log("Error");
+            })
+
+    </script>
+
+
+    {% endblock %}

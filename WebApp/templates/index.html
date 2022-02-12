@@ -1,0 +1,52 @@
+
+{% extends 'base.html' %}
+
+{%block body%}
+{%load static%}
+<!-- Wrapper -->
+<div id="wrapper" class="divided" style="background-color: black;">
+
+	<!-- One -->
+	<section
+		class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+		<div class="content" style="background-color: black; color: white;">
+			<h1 style="color:white;">Objectify</h1>
+			<p class="major" style="color:white;">Deployed version of <b style="color:white;">fast</b> and <b
+					style="color:white;">accurate</b> image segmentation and object
+				detection models which can efficiently identify objects such as :
+			<ol>
+				<li><b style="color:white;">Vehicles</b> (Truck, Bus, Boat, Airplane)</li>
+				<li><b style="color:white;">Roads Signage</b> - (Zebra Crossing, Traffic Light)</li>
+				<li><b style="color:white;">Man-Made Architectures</b> - (Buildings, Bridges)</li>
+			</ol>
+
+			This project was part of the <a href="https://manthan.mic.gov.in/" style="color:white;">Manthan 2021
+				Hackathon</a> under Team
+			CodeDevs.
+			</p>
+			<ul class="actions stacked" style="color:white;">
+				<li>
+					<a href="/app/test" class="button big wide smooth-scroll-middle" style="background-color:grey;">
+						<p style="color:white;">Run Object Detection</p>
+					</a>
+					<a href="#first" class="button big wide smooth-scroll-middle" style="background-color:grey;">
+						<p style="color:white;">View GitHub Project</p>
+					</a>
+					<a href="#first" class="button big wide smooth-scroll-middle" style="background-color:grey;">
+						<p style="color:white;">View Video Tutorial</p>
+					</a>
+					<a href="#first" class="button big wide smooth-scroll-middle" style="background-color:grey;">
+						<p style="color:white;">Report a Bug</p>
+					</a>
+					<a href="#first" class="button big wide smooth-scroll-middle" style="background-color:grey;">
+						<p style="color:white;">About Us</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<!-- if var_name = 1 then display this -->
+		<div class="image" style="height:740px;">
+			<img src="{% static 'images/od.png' %}" alt="" />
+		</div>
+		{%endblock%}
