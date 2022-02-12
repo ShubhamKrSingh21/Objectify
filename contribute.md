@@ -75,4 +75,4 @@ git push -u origin <your_branch_name>
 
 <img src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" width=600>
 
-**16.** Congrats :exclamation: You have created a PR to the OBJECTIFY :boom: . Sit back patiently and relax till then the project maintainers will review your PR. Please understand,  there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
+**16.** Congrats :exclamation: You have created a PR to our project OBJECTIFY :boom: . Sit back patiently and relax till then the project maintainers will review your PR. Please understand,  there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
