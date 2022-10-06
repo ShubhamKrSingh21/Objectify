@@ -115,7 +115,7 @@ For performing `segmentation` of the objects in images and videos, `PixelLib` li
 
 The implementation of the `MobileNetV3` architecture follows closely the original paper and it is customizable and offers different configurations for building `Classification`, `Object Detection` and `Semantic Segmentation` backbones. 
 Furthermore, it was designed to follow a similar structure to `MobileNetV2` and the two share common building blocks. The `MobileNetV3` class is responsible for building a network out of the provided configuration. The models are then adapted and applied to the tasks of `object detection` and `semantic segmentation`. 
-For the task of `semantic segmentation` (or any `dense pixel prediction`), we propose a new efficient segmentation decoder to achieve new state of the art results for `mobile classification`, `detection` and `segmentation`. Finally, the project tries to faithfully implement `MobileNetV3` for real-time `semantic segmentation`, with the aims of being efficient, easy to use, and extensible.
+For the task of `semantic segmentation` (or any `dense pixel prediction`), we propose a new efficient segmentation decoder to achieve new state of the art results for `mobile classification`, `detection` and `segmentation`. Finally, the project tries to faithfully implement `MobileNetV3` for real-time `semantic segmentation`, with the aims of being efficient, easy to use and extensible.
 
 <br>
 <hr>
