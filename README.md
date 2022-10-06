@@ -34,7 +34,7 @@ Object Detection, Semantic and Instance Segmentation -
 
 ### Our Idea :
 1. Our web app takes an input image from the user using `JavaScript`
-2. The respective image gets saved in the locally hosted centralised  `SQL database`.
+2. The respective image gets saved in the locally hosted centralised `SQL database`.
 3. The model will fetch the object and will detect the same, using the libraries `tensorflow`, `pytorch` & `pixellib` with `Deep Learning Models` such as `PointRend` and `MobileNetV3`. 
 4. The input image gets annotated using `cv2` libraries.
 5. The `annotated` objects that has been detected, gets displayed along with the original uploaded image via the `Django Backend`.
