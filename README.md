@@ -1,4 +1,4 @@
-<h1 align="center"> <b>Objectify - Advanced Object Detection on Regular Images</b></h1>
+<h1 align="center"> <b>Objectify - Advanced Object Detection on Satellite/Regular Images</b></h1>
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/github/license/Arka2001/shopify-app?style=for-the-badge"> 
