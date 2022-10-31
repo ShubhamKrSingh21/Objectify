@@ -44,7 +44,7 @@ Object Detection and Instance Segmentation -
 <hr>
 <br>
 
-<!-- ### TechStack Used :
+<!-- ### TechStack Used:
 - Python
 - JavaScript
 - Django
