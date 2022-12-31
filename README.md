@@ -137,4 +137,4 @@ For the task of `semantic segmentation` (or any `dense pixel prediction`), we pr
 <p align="center"><img  src="https://user-images.githubusercontent.com/78292851/139591258-600d7341-66e0-47d9-85c7-409eaf4d01c3.gif" /></p>
 
 <p align="center"> <b>Instance Segmentation</b> </p>
-<b> ~By Shubham Kumar Singh</b>
+<b> ~By Crypto Coders</b>
